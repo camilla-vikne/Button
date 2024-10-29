@@ -1,0 +1,2 @@
+document.getElementById("btn-on").addEventListener("click", function() { alert("Feelings have been switched on");} );
+document.getElementById("btn-off").addEventListener("click", function() {alert("Feelings have been switched off");});
