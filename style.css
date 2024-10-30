@@ -1,47 +1,45 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: black;
+  background-color: black;
 }
 header {
-    height: 200px;
-    background-color: darkolivegreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 200px;
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
-    font-size: 32px;
-    background-color: hsla(0, 0%, 100%, 0.5);
-    font-family:Helvetica, sans-serif;
+  font-size: 32px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  font-family: Helvetica, sans-serif;
 }
 main {
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   height: 300px;
-   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  background-color: black;
 }
 
 button {
-    height: 80px;
-    width: 150px;
-    font-size: 15px;
-    font-weight: 700;
-    
+  height: 80px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 700;
 }
 #btn-on {
-    background-color: deeppink;
-
+  background-color: deeppink;
 }
 #btn-on:hover {
-background-color: red;
+  background-color: red;
 }
 #btn-off {
-    background-color: blue;
+  background-color: blue;
 }
 #btn-off:hover {
-    background-color: darkblue;
+  background-color: darkblue;
 }
